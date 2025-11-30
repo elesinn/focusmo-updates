@@ -3,22 +3,40 @@
     <channel>
         <title>FocusMode Updates</title>
         <item>
-            <title>Version 5.9.0</title>
-            <pubDate>Tue, 04 Nov 2025 23:26:00 +0530</pubDate>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>5.9.0</sparkle:shortVersionString>
+            <title>Version 6.0.0</title>
+            <pubDate>Sun, 30 Nov 2025 23:34:00 +0530</pubDate>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>6.0.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="focusmo-5.9.0">Focusmo 5.9.0</h1>
+<h1 id="focusmo-6.0.0">Focusmo 6.0.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Menubar Timeline</strong>: Timeline in your menubar</li>
-<li><strong>Scheduling</strong>: Schedule your day and get notified for tasks and events</li>
+<li><strong>Timer Modes</strong>: Switch between Timer, Stopwatch, and Pomodoro from the tasks screen footer</li>
+<li><strong>Quick Access Panel</strong>: New look with mode switching and project creation</li>
+<li><strong>Simplified Tasks Screen</strong>: Cleaner interface with quick access panel for adding tasks</li>
+<li><strong>Streamlined Preferences</strong>: Reduced clutter for easier navigation</li>
+<li><strong>Improved Activity Screen</strong>: Better layout for tracking your progress</li>
+<li><strong>Updated Onboarding</strong>: Smoother first-time experience</li>
+<li><strong>Pomodoro Breaks</strong>: Start breaks directly from the tasks screen in pomodoro mode</li>
+<li><strong>Shortcut Error Feedback</strong>: Clear messages for shortcut errors and misconfigurations</li>
+<li><strong>Timer Mode Shortcut</strong>: Use Shift + Tab to switch between timer modes on tasks screen</li>
+<li><strong>Task Completion Logic</strong>: Checkmark button now completes sessions; use the tick in the task list to complete tasks</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed time not being recorded when using complete button or stopwatch</li>
+<li>Fixed logging toggle in menu</li>
+<li>Fixed Cmd + Enter not starting new task in quick access view</li>
+<li>Fixed calendar meeting notifications dismissing automatically</li>
+<li>Fixed notification effects not showing on completion</li>
+<li>Fixed toggle timer and pause/play shortcuts not working</li>
+<li>Fixed timer style change option blinking and preventing change</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/focusmode-updates/releases/download/v5.9.0/focusmode_v5.9.0.zip"
-                sparkle:edSignature="wjjxIuZMHIFMLJhDgOWQtRZGt5B0EBAEF5xOwYA1AWf7MijXl1IkZZeg/wH5q3QxhyHdwBjteBkXCEEffPTaAg=="
-                length="21668209"
+                url="https://github.com/auspy/focusmode-updates/releases/download/v6.0.0/focusmode_v6.0.0.zip"
+                sparkle:edSignature="pf7EdRjcEykj/I0CpweT+WEuS2z7IAGNGbZMrKMSv/iCTZkXPGa15UMTKvoDz2EQfUNVxJADBEpJ80198KjQDQ=="
+                length="21853305"
                 type="application/octet-stream"/>
         </item>
     </channel>

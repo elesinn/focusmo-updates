@@ -1,43 +1,45 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>FocusMode Updates</title>
-        <item>
-            <title>Version 6.0.0</title>
-            <pubDate>Sun, 30 Nov 2025 23:34:00 +0530</pubDate>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>6.0.0</sparkle:shortVersionString>
-            <description><![CDATA[
-<h1 id="focusmo-6.0.0">Focusmo 6.0.0</h1>
-<h2 id="whats-new">What’s New</h2>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Focusmo Updates</title>
+    <item>
+      <title>Version 6.1.0</title>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>6.1.0</sparkle:shortVersionString>
+      <pubDate>Thu, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure 
+        url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.0/Focusmo-6.1.0.zip"
+        sparkle:edSignature="wpOvvcl+nszaiJhcOK83jovzgkZ9Paprax7PYtPf0oQmehX9HeY55eVYuKqCuUt00KRb4rWAIjZc8kRcv274Ag=="
+        length="22406549"
+        type="application/octet-stream"/>
+      <sparkle:releaseNotes><![CDATA[
+<h2>What's New in Focusmo 6.1.0</h2>
+<h3>🆓 New Freemium Model</h3>
 <ul>
-<li><strong>Timer Modes</strong>: Switch between Timer, Stopwatch, and Pomodoro from the tasks screen footer</li>
-<li><strong>Quick Access Panel</strong>: New look with mode switching and project creation</li>
-<li><strong>Simplified Tasks Screen</strong>: Cleaner interface with quick access panel for adding tasks</li>
-<li><strong>Streamlined Preferences</strong>: Reduced clutter for easier navigation</li>
-<li><strong>Improved Activity Screen</strong>: Better layout for tracking your progress</li>
-<li><strong>Updated Onboarding</strong>: Smoother first-time experience</li>
-<li><strong>Pomodoro Breaks</strong>: Start breaks directly from the tasks screen in pomodoro mode</li>
-<li><strong>Shortcut Error Feedback</strong>: Clear messages for shortcut errors and misconfigurations</li>
-<li><strong>Timer Mode Shortcut</strong>: Use Shift + Tab to switch between timer modes on tasks screen</li>
-<li><strong>Task Completion Logic</strong>: Checkmark button now completes sessions; use the tick in the task list to complete tasks</li>
+  <li>Enjoy Focusmo for free with essential productivity features</li>
+  <li>Free tier includes preset Pomodoro options, basic timeline, and core functionality</li>
+  <li>Upgrade to Pro for unlimited customization and advanced analytics</li>
 </ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
+<h3>📅 Enhanced Calendar Integration</h3>
 <ul>
-<li>Fixed time not being recorded when using complete button or stopwatch</li>
-<li>Fixed logging toggle in menu</li>
-<li>Fixed Cmd + Enter not starting new task in quick access view</li>
-<li>Fixed calendar meeting notifications dismissing automatically</li>
-<li>Fixed notification effects not showing on completion</li>
-<li>Fixed toggle timer and pause/play shortcuts not working</li>
-<li>Fixed timer style change option blinking and preventing change</li>
+  <li>Choose which calendars to display in the menu bar</li>
+  <li>Filter out clutter and focus on relevant events</li>
+  <li>Calendar colors now visible in timeline view</li>
+  <li>Menu bar always shows calendar status, even when no events today</li>
 </ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/auspy/focusmode-updates/releases/download/v6.0.0/focusmode_v6.0.0.zip"
-                sparkle:edSignature="pf7EdRjcEykj/I0CpweT+WEuS2z7IAGNGbZMrKMSv/iCTZkXPGa15UMTKvoDz2EQfUNVxJADBEpJ80198KjQDQ=="
-                length="21853305"
-                type="application/octet-stream"/>
-        </item>
-    </channel>
+<h3>🪟 Improved Window Management</h3>
+<ul>
+  <li>Windows now remember their position across sessions</li>
+  <li>Your preferred layout is automatically restored</li>
+</ul>
+<h3>🎨 UI Improvements</h3>
+<ul>
+  <li>Updated license preferences with clear plan benefits</li>
+  <li>Enhanced trial status display in menu bar</li>
+  <li>Consistent light/dark theme support throughout the app</li>
+</ul>
+      ]]></sparkle:releaseNotes>
+    </item>
+  </channel>
 </rss>

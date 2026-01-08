@@ -1,43 +1,45 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>FocusMode Updates</title>
-        <item>
-            <title>Version 6.0.0</title>
-            <pubDate>Sun, 30 Nov 2025 23:34:00 +0530</pubDate>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>6.0.0</sparkle:shortVersionString>
-            <description><![CDATA[
-<h1 id="focusmo-6.0.0">Focusmo 6.0.0</h1>
-<h2 id="whats-new">What’s New</h2>
+  <channel>
+    <title>FocusMode Updates</title>
+    <item>
+      <title>Version 6.1.2</title>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>6.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in 6.1.2</h2>
+
+<h3>✨ New Features</h3>
 <ul>
-<li><strong>Timer Modes</strong>: Switch between Timer, Stopwatch, and Pomodoro from the tasks screen footer</li>
-<li><strong>Quick Access Panel</strong>: New look with mode switching and project creation</li>
-<li><strong>Simplified Tasks Screen</strong>: Cleaner interface with quick access panel for adding tasks</li>
-<li><strong>Streamlined Preferences</strong>: Reduced clutter for easier navigation</li>
-<li><strong>Improved Activity Screen</strong>: Better layout for tracking your progress</li>
-<li><strong>Updated Onboarding</strong>: Smoother first-time experience</li>
-<li><strong>Pomodoro Breaks</strong>: Start breaks directly from the tasks screen in pomodoro mode</li>
-<li><strong>Shortcut Error Feedback</strong>: Clear messages for shortcut errors and misconfigurations</li>
-<li><strong>Timer Mode Shortcut</strong>: Use Shift + Tab to switch between timer modes on tasks screen</li>
-<li><strong>Task Completion Logic</strong>: Checkmark button now completes sessions; use the tick in the task list to complete tasks</li>
+  <li><strong>Google Sign-In</strong>: Sign in with your Google account to sync your data across devices</li>
+  <li><strong>Redesigned Onboarding</strong>: New guided setup for goals, task manager intro, and first focus session</li>
+  <li><strong>Theme Selection</strong>: Choose Light/Dark/System appearance and Classic or Pastel color palettes</li>
+  <li><strong>Browser Activity Tracking</strong>: Track websites during focus sessions across 15 browsers (Safari, Chrome, Firefox, Edge, Brave, Opera, Arc, Vivaldi, and more)</li>
+  <li><strong>Click-Through Mode</strong>: Make floating timer transparent and non-interactive for gaming or presentations</li>
+  <li><strong>View in Activity</strong>: Right-click any task to jump directly to its session history</li>
+  <li><strong>One-Click Accessibility Setup</strong>: Click permission badge to open System Settings directly</li>
 </ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
+
+<h3>🎨 Improvements</h3>
 <ul>
-<li>Fixed time not being recorded when using complete button or stopwatch</li>
-<li>Fixed logging toggle in menu</li>
-<li>Fixed Cmd + Enter not starting new task in quick access view</li>
-<li>Fixed calendar meeting notifications dismissing automatically</li>
-<li>Fixed notification effects not showing on completion</li>
-<li>Fixed toggle timer and pause/play shortcuts not working</li>
-<li>Fixed timer style change option blinking and preventing change</li>
+  <li><strong>Freemium Updates</strong>: Free users get all analytics views (3-day history) and Pomodoro presets</li>
+  <li><strong>Activity Screen</strong>: All Sessions list now available for all time ranges</li>
+  <li><strong>Faster Stats</strong>: Task statistics preload instantly</li>
+  <li><strong>Smoother Animations</strong>: Improved wave animation and session list transitions</li>
+  <li><strong>Unified Design</strong>: Consistent colors and typography throughout</li>
 </ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/auspy/focusmode-updates/releases/download/v6.0.0/focusmode_v6.0.0.zip"
-                sparkle:edSignature="pf7EdRjcEykj/I0CpweT+WEuS2z7IAGNGbZMrKMSv/iCTZkXPGa15UMTKvoDz2EQfUNVxJADBEpJ80198KjQDQ=="
-                length="21853305"
-                type="application/octet-stream"/>
-        </item>
-    </channel>
+
+<h3>🐛 Bug Fixes</h3>
+<ul>
+  <li>Fixed memory leaks in timer components</li>
+  <li>Fixed animation glitches and UI freezes</li>
+  <li>Improved crash safety and error handling</li>
+  <li>Fixed menu bar widget version display</li>
+</ul>
+      ]]></description>
+      <pubDate>Thu, 08 Jan 2026 11:35:43 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.2/Focusmo_v6.1.2.dmg" sparkle:edSignature="8j4x8CCmo+UmquBv+VqpvrOcaJBfV7iGEgU+cjYr+n2R4lWUe9c9uJoheo5NsM1wOf5hjHSO5LBlPVpIj/9BAw==" length="13491168" type="application/octet-stream"/>
+    </item>
+  </channel>
 </rss>

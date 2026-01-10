@@ -4,42 +4,78 @@
     <title>FocusMode Updates</title>
     <item>
       <title>Version 6.1.2</title>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>6.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>**Google Sign-In**: Sign in with your Google account to sync your data across devices and keep your progress backed up to the cloud. Your account info appears in Preferences.</li><li>**Redesigned Onboarding**: Completely new first-time experience guides you through setting daily focus goals, introduces the task manager, walks through setup steps, and helps you start your first focus session.</li><li>**Theme Selection**: New theme options in Preferences → Appearance:</li><li>**Browser Activity Tracking**: Focusmo now tracks which websites you're visiting during focus sessions. Supports 15 browsers:</li><li>**Click-Through Mode for Floating Timer**: Enable in Preferences → Appearance to make the floating timer transparent and click-through — it stays visible but won't interfere with your work. Perfect for gaming or presentations.</li><li>**Quick Navigation to Activity**: Right-click any task and select "View in Activity" to instantly jump to that task's session history. The Activity screen scrolls to the right section and expands the task automatically.</li><li>**One-Click Accessibility Setup**: When Focusmo needs accessibility permissions, click the notification badge to open System Settings directly to the right page.</li><li>**Freemium Model Updates**: </li><li>**Activity Screen**: The "All Sessions" list is now available for weekly, monthly, and yearly views — not just daily. See your complete session history regardless of time range.</li><li>**Faster Task Statistics**: Task time details now preload when you view tasks, so stats appear instantly without loading spinners.</li><li>**Smoother Animations**: </li><li>**Unified Design System**: Consistent colors, spacing, and typography throughout the app. All colors now respect your selected theme.</li><li>**Bundle ID Migration**: If you're upgrading from an older version, your settings, preferences, and iCloud data are automatically migrated to the new app identifier.</li><li>Fixed memory leaks in 9 timer-related components that could cause increased RAM usage over time</li><li>Fixed animation glitches caused by dynamic view identifiers</li><li>Fixed threading violations that could cause occasional UI freezes</li><li>Fixed crash safety by replacing fatalError calls with graceful error handling</li><li>Fixed menu bar widget showing incorrect version number</li><li>Fixed pulse animations stacking up and becoming too intense</li><li>Fixed iCloud sync issues for users with accessibility-restricted environments</li></ul>]]></description>
+      <pubDate>Sat, 10 Jan 2026 12:08:41 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.2/Focusmo_v6.1.2.dmg" sparkle:edSignature="FP7hYCDSX5UxVDx6xBM7TAueP3FSiiSEF/V2O6ddJYcfm4uA46cQsxFScD1JI3B6FlfeImsh7MzUJB27j1ZpAw==" length="19359065" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Version 6.1.2</title>
       <sparkle:version>39</sparkle:version>
       <sparkle:shortVersionString>6.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[
-<h2>What's New in 6.1.2</h2>
+      <description>&lt;ul&gt;&lt;li&gt;**Google Sign-In**: Sign in with your Google account to sync your data across devices and keep your progress backed up to the cloud. Your account info appears in Preferences.&lt;/li&gt;&lt;li&gt;**Redesigned Onboarding**: Completely new first-time experience guides you through setting daily focus goals, introduces the task manager, walks through setup steps, and helps you start your first focus session.&lt;/li&gt;&lt;li&gt;**Theme Selection**: New theme options in Preferences → Appearance:&lt;/li&gt;&lt;li&gt;**Browser Activity Tracking**: Focusmo now tracks which websites you're visiting during focus sessions. Supports 15 browsers:&lt;/li&gt;&lt;li&gt;**Click-Through Mode for Floating Timer**: Enable in Preferences → Appearance to make the floating timer transparent and click-through — it stays visible but won't interfere with your work. Perfect for gaming or presentations.&lt;/li&gt;&lt;li&gt;**Quick Navigation to Activity**: Right-click any task and select "View in Activity" to instantly jump to that task's session history. The Activity screen scrolls to the right section and expands the task automatically.&lt;/li&gt;&lt;li&gt;**One-Click Accessibility Setup**: When Focusmo needs accessibility permissions, click the notification badge to open System Settings directly to the right page.&lt;/li&gt;&lt;li&gt;**Freemium Model Updates**: &lt;/li&gt;&lt;li&gt;**Activity Screen**: The "All Sessions" list is now available for weekly, monthly, and yearly views — not just daily. See your complete session history regardless of time range.&lt;/li&gt;&lt;li&gt;**Faster Task Statistics**: Task time details now preload when you view tasks, so stats appear instantly without loading spinners.&lt;/li&gt;&lt;li&gt;**Smoother Animations**: &lt;/li&gt;&lt;li&gt;**Unified Design System**: Consistent colors, spacing, and typography throughout the app. All colors now respect your selected theme.&lt;/li&gt;&lt;li&gt;**Bundle ID Migration**: If you're upgrading from an older version, your settings, preferences, and iCloud data are automatically migrated to the new app identifier.&lt;/li&gt;&lt;li&gt;Fixed memory leaks in 9 timer-related components that could cause increased RAM usage over time&lt;/li&gt;&lt;li&gt;Fixed animation glitches caused by dynamic view identifiers&lt;/li&gt;&lt;li&gt;Fixed threading violations that could cause occasional UI freezes&lt;/li&gt;&lt;li&gt;Fixed crash safety by replacing fatalError calls with graceful error handling&lt;/li&gt;&lt;li&gt;Fixed menu bar widget showing incorrect version number&lt;/li&gt;&lt;li&gt;Fixed pulse animations stacking up and becoming too intense&lt;/li&gt;&lt;li&gt;Fixed iCloud sync issues for users with accessibility-restricted environments&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 10 Jan 2026 12:07:11 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.2/Focusmo_v6.1.2.dmg" sparkle:edSignature="FP7hYCDSX5UxVDx6xBM7TAueP3FSiiSEF/V2O6ddJYcfm4uA46cQsxFScD1JI3B6FlfeImsh7MzUJB27j1ZpAw==" length="19359065" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Version 6.1.2</title>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>6.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;ul&gt;&lt;li&gt;**Google Sign-In**: Sign in with your Google account to sync your data across devices and keep your progress backed up to the cloud. Your account info appears in Preferences.&lt;/li&gt;&lt;li&gt;**Redesigned Onboarding**: Completely new first-time experience guides you through setting daily focus goals, introduces the task manager, walks through setup steps, and helps you start your first focus session.&lt;/li&gt;&lt;li&gt;**Theme Selection**: New theme options in Preferences → Appearance:&lt;/li&gt;&lt;li&gt;**Browser Activity Tracking**: Focusmo now tracks which websites you're visiting during focus sessions. Supports 15 browsers:&lt;/li&gt;&lt;li&gt;**Click-Through Mode for Floating Timer**: Enable in Preferences → Appearance to make the floating timer transparent and click-through — it stays visible but won't interfere with your work. Perfect for gaming or presentations.&lt;/li&gt;&lt;li&gt;**Quick Navigation to Activity**: Right-click any task and select "View in Activity" to instantly jump to that task's session history. The Activity screen scrolls to the right section and expands the task automatically.&lt;/li&gt;&lt;li&gt;**One-Click Accessibility Setup**: When Focusmo needs accessibility permissions, click the notification badge to open System Settings directly to the right page.&lt;/li&gt;&lt;li&gt;**Freemium Model Updates**: &lt;/li&gt;&lt;li&gt;**Activity Screen**: The "All Sessions" list is now available for weekly, monthly, and yearly views — not just daily. See your complete session history regardless of time range.&lt;/li&gt;&lt;li&gt;**Faster Task Statistics**: Task time details now preload when you view tasks, so stats appear instantly without loading spinners.&lt;/li&gt;&lt;li&gt;**Smoother Animations**: &lt;/li&gt;&lt;li&gt;**Unified Design System**: Consistent colors, spacing, and typography throughout the app. All colors now respect your selected theme.&lt;/li&gt;&lt;li&gt;**Bundle ID Migration**: If you're upgrading from an older version, your settings, preferences, and iCloud data are automatically migrated to the new app identifier.&lt;/li&gt;&lt;li&gt;Fixed memory leaks in 9 timer-related components that could cause increased RAM usage over time&lt;/li&gt;&lt;li&gt;Fixed animation glitches caused by dynamic view identifiers&lt;/li&gt;&lt;li&gt;Fixed threading violations that could cause occasional UI freezes&lt;/li&gt;&lt;li&gt;Fixed crash safety by replacing fatalError calls with graceful error handling&lt;/li&gt;&lt;li&gt;Fixed menu bar widget showing incorrect version number&lt;/li&gt;&lt;li&gt;Fixed pulse animations stacking up and becoming too intense&lt;/li&gt;&lt;li&gt;Fixed iCloud sync issues for users with accessibility-restricted environments&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Sat, 10 Jan 2026 12:00:01 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.2/Focusmo_v6.1.2.dmg" sparkle:edSignature="EBKYCw3kfg6J5oLQ6ug40GffwpoHv2Cuii6t6KXXWptbjSxxNn5h2LjWE6ELq/dQUby6/vs61/ndfWd5vvkYBA==" length="19117690" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Version 6.1.1</title>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>6.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>&lt;ul&gt;&lt;li&gt;**Google Sign-In**: Sign in with your Google account to sync your data across devices and keep your progress backed up to the cloud. Your account info appears in Preferences.&lt;/li&gt;&lt;li&gt;**Redesigned Onboarding**: Completely new first-time experience guides you through setting daily focus goals, introduces the task manager, walks through setup steps, and helps you start your first focus session.&lt;/li&gt;&lt;li&gt;**Theme Selection**: New theme options in Preferences → Appearance:&lt;/li&gt;&lt;li&gt;**Browser Activity Tracking**: Focusmo now tracks which websites you're visiting during focus sessions. Supports 15 browsers:&lt;/li&gt;&lt;li&gt;**Click-Through Mode for Floating Timer**: Enable in Preferences → Appearance to make the floating timer transparent and click-through — it stays visible but won't interfere with your work. Perfect for gaming or presentations.&lt;/li&gt;&lt;li&gt;**Quick Navigation to Activity**: Right-click any task and select "View in Activity" to instantly jump to that task's session history. The Activity screen scrolls to the right section and expands the task automatically.&lt;/li&gt;&lt;li&gt;**One-Click Accessibility Setup**: When Focusmo needs accessibility permissions, click the notification badge to open System Settings directly to the right page.&lt;/li&gt;&lt;li&gt;**Freemium Model Updates**: &lt;/li&gt;&lt;li&gt;**Activity Screen**: The "All Sessions" list is now available for weekly, monthly, and yearly views — not just daily. See your complete session history regardless of time range.&lt;/li&gt;&lt;li&gt;**Faster Task Statistics**: Task time details now preload when you view tasks, so stats appear instantly without loading spinners.&lt;/li&gt;&lt;li&gt;**Smoother Animations**: &lt;/li&gt;&lt;li&gt;**Unified Design System**: Consistent colors, spacing, and typography throughout the app. All colors now respect your selected theme.&lt;/li&gt;&lt;li&gt;**Bundle ID Migration**: If you're upgrading from an older version, your settings, preferences, and iCloud data are automatically migrated to the new app identifier.&lt;/li&gt;&lt;li&gt;Fixed memory leaks in 9 timer-related components that could cause increased RAM usage over time&lt;/li&gt;&lt;li&gt;Fixed animation glitches caused by dynamic view identifiers&lt;/li&gt;&lt;li&gt;Fixed threading violations that could cause occasional UI freezes&lt;/li&gt;&lt;li&gt;Fixed crash safety by replacing fatalError calls with graceful error handling&lt;/li&gt;&lt;li&gt;Fixed menu bar widget showing incorrect version number&lt;/li&gt;&lt;li&gt;Fixed pulse animations stacking up and becoming too intense&lt;/li&gt;&lt;li&gt;Fixed iCloud sync issues for users with accessibility-restricted environments&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 08 Jan 2026 12:12:49 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.1/Focusmo_v6.1.1.dmg" sparkle:edSignature="8j4x8CCmo+UmquBv+VqpvrOcaJBfV7iGEgU+cjYr+n2R4lWUe9c9uJoheo5NsM1wOf5hjHSO5LBlPVpIj/9BAw==" length="13491168" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Version 6.1.1</title>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>6.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 6.1.1&lt;/h2&gt;
 
-<h3>✨ New Features</h3>
-<ul>
-  <li><strong>Google Sign-In</strong>: Sign in with your Google account to sync your data across devices</li>
-  <li><strong>Redesigned Onboarding</strong>: New guided setup for goals, task manager intro, and first focus session</li>
-  <li><strong>Theme Selection</strong>: Choose Light/Dark/System appearance and Classic or Pastel color palettes</li>
-  <li><strong>Browser Activity Tracking</strong>: Track websites during focus sessions across 15 browsers (Safari, Chrome, Firefox, Edge, Brave, Opera, Arc, Vivaldi, and more)</li>
-  <li><strong>Click-Through Mode</strong>: Make floating timer transparent and non-interactive for gaming or presentations</li>
-  <li><strong>View in Activity</strong>: Right-click any task to jump directly to its session history</li>
-  <li><strong>One-Click Accessibility Setup</strong>: Click permission badge to open System Settings directly</li>
-</ul>
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Google Sign-In&lt;/strong&gt;: Sign in with your Google account to sync your data across devices&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Redesigned Onboarding&lt;/strong&gt;: New guided setup for goals, task manager intro, and first focus session&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theme Selection&lt;/strong&gt;: Choose Light/Dark/System appearance and Classic or Pastel color palettes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Browser Activity Tracking&lt;/strong&gt;: Track websites during focus sessions across 15 browsers (Safari, Chrome, Firefox, Edge, Brave, Opera, Arc, Vivaldi, and more)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Click-Through Mode&lt;/strong&gt;: Make floating timer transparent and non-interactive for gaming or presentations&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;View in Activity&lt;/strong&gt;: Right-click any task to jump directly to its session history&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;One-Click Accessibility Setup&lt;/strong&gt;: Click permission badge to open System Settings directly&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3>🎨 Improvements</h3>
-<ul>
-  <li><strong>Freemium Updates</strong>: Free users get all analytics views (3-day history) and Pomodoro presets</li>
-  <li><strong>Activity Screen</strong>: All Sessions list now available for all time ranges</li>
-  <li><strong>Faster Stats</strong>: Task statistics preload instantly</li>
-  <li><strong>Smoother Animations</strong>: Improved wave animation and session list transitions</li>
-  <li><strong>Unified Design</strong>: Consistent colors and typography throughout</li>
-</ul>
+&lt;h3&gt;🎨 Improvements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Freemium Updates&lt;/strong&gt;: Free users get all analytics views (3-day history) and Pomodoro presets&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Activity Screen&lt;/strong&gt;: All Sessions list now available for all time ranges&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Faster Stats&lt;/strong&gt;: Task statistics preload instantly&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smoother Animations&lt;/strong&gt;: Improved wave animation and session list transitions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unified Design&lt;/strong&gt;: Consistent colors and typography throughout&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3>🐛 Bug Fixes</h3>
-<ul>
-  <li>Fixed memory leaks in timer components</li>
-  <li>Fixed animation glitches and UI freezes</li>
-  <li>Improved crash safety and error handling</li>
-  <li>Fixed menu bar widget version display</li>
-</ul>
-      ]]></description>
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed memory leaks in timer components&lt;/li&gt;
+  &lt;li&gt;Fixed animation glitches and UI freezes&lt;/li&gt;
+  &lt;li&gt;Improved crash safety and error handling&lt;/li&gt;
+  &lt;li&gt;Fixed menu bar widget version display&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
       <pubDate>Thu, 08 Jan 2026 11:35:43 +0000</pubDate>
-      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.2/Focusmo_v6.1.2.dmg" sparkle:edSignature="8j4x8CCmo+UmquBv+VqpvrOcaJBfV7iGEgU+cjYr+n2R4lWUe9c9uJoheo5NsM1wOf5hjHSO5LBlPVpIj/9BAw==" length="13491168" type="application/octet-stream"/>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.1.1/Focusmo_v6.1.1.dmg" sparkle:edSignature="8j4x8CCmo+UmquBv+VqpvrOcaJBfV7iGEgU+cjYr+n2R4lWUe9c9uJoheo5NsM1wOf5hjHSO5LBlPVpIj/9BAw==" length="13491168" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>

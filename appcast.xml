@@ -3,6 +3,47 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 6.2.0</title>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>6.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 6.2.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Gamification System&lt;/strong&gt;: Stay motivated with a new gamification layer:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Badges&lt;/strong&gt;: Earn badges for focus milestones — first session, focus marathon, early bird, night owl, and more. Track your progress toward unlocking new achievements.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Streak Tracking&lt;/strong&gt;: Build a daily focus streak and watch it grow. Streak freeze shields protect your streak when life gets in the way.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Celebrations&lt;/strong&gt;: Unlock badges with satisfying particle effects and celebratory overlays. Every milestone feels like an achievement.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Workspace Task Filtering&lt;/strong&gt;: Filter your task list by workspace with a sleek new filter bar. Quickly focus on tasks from a specific workspace, or view everything at once.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Redesigned Daily Goal Screen&lt;/strong&gt;: Your new gamification hub — see your streak, browse all badges, and track daily progress with a scrollable 30-day chart. Three tabs: Today, Records, and History.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved Focus Lock Navigation&lt;/strong&gt;: Navigate back to Tasks during active focus sessions without stopping your timer. Press the play button to return to the timer view.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🎨 Improvements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Streamlined Navigation&lt;/strong&gt;: The app now opens directly to Tasks as your home screen. Activity is now a dedicated section — cleaner, faster, less clutter.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Collapsible Activity Sections&lt;/strong&gt;: Insights in the Activity screen now collapse and expand with smooth animations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Polished Animations&lt;/strong&gt;: Animated numbers that count up, spring animations on progress rings and bar charts, subtle hover effects on cards.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Keyboard Navigation for Analytics&lt;/strong&gt;: Use arrow keys to navigate between metric cards. Press Enter to drill down into details.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cleaner Dashboard&lt;/strong&gt;: Teasers now tap to navigate instead of opening dead-end popovers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed Command Palette losing focus in certain conditions&lt;/li&gt;
+  &lt;li&gt;Fixed DND shortcuts opening the Shortcuts app instead of running silently&lt;/li&gt;
+  &lt;li&gt;Fixed keyboard shortcuts not working in session completion modal&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Tue, 20 Jan 2026 17:34:14 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v6.2.0/Focusmo_v6.2.0.dmg" sparkle:edSignature="OvzU+yFQFLQv9lNMGdmqi5VRoPxINJ1H6zaXOARwpXt+VhWfSqH5wIA+1MuhZ48Ypk3hT9UsWEpArJWTLapADA==" length="20915385" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 6.1.4</title>
       <sparkle:version>42</sparkle:version>
       <sparkle:shortVersionString>6.1.4</sparkle:shortVersionString>

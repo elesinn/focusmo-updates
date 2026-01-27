@@ -7,7 +7,29 @@
       <sparkle:version>152</sparkle:version>
       <sparkle:shortVersionString>7.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>**Zen Mode**: A radically minimal focus experience for distraction-free deep work:</li><li>**Full Pomodoro Cycles**: Complete work → break → work → long break automation. Set your intervals and let the timer guide you through the entire cycle.</li><li>**Haptic Feedback System**: Tactile responses throughout timer interactions for a more physical, grounded experience.</li><li>**Refined Command Palette**: Now requires Cmd+Enter to start a task immediately. Enter adds the task to your list.</li><li>**Smarter Mode Navigation**: Automatically navigates to Tasks when switching to Zen Mode from Activity or Analytics.</li><li>Fixed memory leaks from NSEvent monitors, timers, and observers that could cause increased RAM usage during long sessions</li><li>Fixed session completion window appearing in Zen Mode when it should be hidden</li><li>Fixed various edge cases in Zen Mode feature visibility</li></ul>]]></description>
+      <description>
+&lt;h2&gt;What's New in 7.0.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Zen Mode&lt;/strong&gt;: A radically minimal focus experience for distraction-free deep work.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Full Pomodoro Cycles&lt;/strong&gt;: Complete work → break → work → long break automation. Set your intervals and let the timer guide you through the entire cycle.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Haptic Feedback System&lt;/strong&gt;: Tactile responses throughout timer interactions for a more physical, grounded experience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🎨 Improvements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Refined Command Palette&lt;/strong&gt;: Now requires Cmd+Enter to start a task immediately. Enter adds the task to your list.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smarter Mode Navigation&lt;/strong&gt;: Automatically navigates to Tasks when switching to Zen Mode from Activity or Analytics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed memory leaks from NSEvent monitors, timers, and observers that could cause increased RAM usage during long sessions&lt;/li&gt;
+  &lt;li&gt;Fixed session completion window appearing in Zen Mode when it should be hidden&lt;/li&gt;
+  &lt;li&gt;Fixed various edge cases in Zen Mode feature visibility&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
       <pubDate>Tue, 27 Jan 2026 10:00:45 +0000</pubDate>
       <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.0.0/Focusmo_v7.0.0.dmg" sparkle:edSignature="o3SWGuy6rS3CvNgMEqyNZG0hEHkUFoFZOj6PkIiz7ys5WTTQTWtSwRqP2V0jkFp4jszlWJro3IJtkH0nEPEQBQ==" length="21680687" type="application/octet-stream"/>
     </item>

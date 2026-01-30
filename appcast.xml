@@ -3,6 +3,49 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.0.1</title>
+      <sparkle:version>153</sparkle:version>
+      <sparkle:shortVersionString>7.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.0.1&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Delete Activity Sessions&lt;/strong&gt;: Take full control of your activity log with new delete functionality:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Delete Focus Sessions&lt;/strong&gt;: Click the trash icon next to "Edit" in session details to remove a focus session and all its tracked activity&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Clear Activity Outside Sessions&lt;/strong&gt;: In the global Activity view, expand "App Usage" and click the trash icon to remove all activity tracked outside of focus sessions&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Delete Individual Activity&lt;/strong&gt;: Right-click any activity entry to delete it from your log&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Customizable Timer Background Color&lt;/strong&gt;: Personalize your focus experience with custom timer background colors. Choose any color that helps you focus, or let it follow your theme automatically.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deep Search in Preferences&lt;/strong&gt;: Find any setting instantly with the new search bar in Preferences — word-by-word fuzzy search across 80+ settings with term highlighting and auto-scroll navigation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Things 3 Integration&lt;/strong&gt;: QuickAdd now supports Things 3 — capture the currently selected task and start a focus session with one shortcut.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Enhanced Floating Timer&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Countdown Styles&lt;/strong&gt;: Choose between Normal and Minimal display modes&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Custom Minimize Button&lt;/strong&gt;: Title bar minimize button for non-minimal styles&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Position &amp;amp; Size Memory&lt;/strong&gt;: The floating window remembers where you left it&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Resize Anywhere&lt;/strong&gt;: Resize the floating timer on any screen, not just the primary display&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Wider Timer Support&lt;/strong&gt;: Maximum width increased to 1600px for ultrawide displays&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Task Name Editing in Zen Mode&lt;/strong&gt;: Edit your task name directly from the floating timer's ellipsis menu while in Zen Mode.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hide Break Window&lt;/strong&gt;: New "Hide" button on break windows lets you dismiss the break overlay without skipping the break. Your break timer continues running in the background.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Toggle Session Reflection Notes&lt;/strong&gt;: New setting to hide the reflection prompt after sessions. Find it in General → App Behavior.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed dark mode text visibility issues throughout the app by using color-scheme-aware text colors&lt;/li&gt;
+  &lt;li&gt;Fixed floating timer window losing its width when being recreated&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Fri, 30 Jan 2026 18:40:58 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.0.1/Focusmo_v7.0.1.dmg" sparkle:edSignature="9EOu836aSzDpdJwnSmcBEgt8+CBdvK7bU+VC5DNf4WZwMzhvcfTxPSBcJvGDimQICx5z9jig62AKuA3UtSnsBA==" length="21620471" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.0.0</title>
       <sparkle:version>152</sparkle:version>
       <sparkle:shortVersionString>7.0.0</sparkle:shortVersionString>

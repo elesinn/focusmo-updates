@@ -3,6 +3,57 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.1.0</title>
+      <sparkle:version>163</sparkle:version>
+      <sparkle:shortVersionString>7.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.1.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;External Task Manager Integrations&lt;/strong&gt;: Pull tasks from your favorite task managers directly into Focusmo:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Things 3 Integration&lt;/strong&gt;: Sync your Today tasks from Things 3. Completing a task in Focusmo marks it done in Things 3 automatically.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Apple Reminders Integration&lt;/strong&gt;: Connect your Reminders lists to see tasks in Focusmo. Two-way completion sync keeps both apps in sync.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Integrations Settings&lt;/strong&gt;: New Preferences → Integrations tab to manage all your connected task sources&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Source Badges&lt;/strong&gt;: External tasks display their source app icon so you always know where they came from&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Project &amp;amp; Area Badges&lt;/strong&gt;: Things 3 tasks show their project and area tags in the task list and Command Palette&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Auto-Refresh&lt;/strong&gt;: External tasks refresh automatically when you activate Focusmo&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Multi-Task Floating Island&lt;/strong&gt;: Focus on multiple tasks at once with the new Big Tasks Island:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Task Chips&lt;/strong&gt;: See all your active tasks as horizontal chips in the floating timer&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Task Selection Sheet&lt;/strong&gt;: Click to open a searchable sheet to add or remove tasks from your current focus session&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Appearance Toggle&lt;/strong&gt;: Enable Big Tasks Island in Preferences → Appearance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Periodic Audio Presence Cues&lt;/strong&gt;: Stay grounded during long focus sessions with subtle audio reminders:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Configurable Intervals&lt;/strong&gt;: Set how often you want to hear a gentle presence cue&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Sound Selection&lt;/strong&gt;: Choose from built-in sounds or disable entirely&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Enhanced Things 3 Integration&lt;/strong&gt; (Community Request):
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Time Spent Tags&lt;/strong&gt;: Focusmo automatically adds time-spent tags to Things 3 tasks (e.g., "30m", "1h 15m")&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Tag Accumulation&lt;/strong&gt;: Multiple focus sessions on the same task accumulate time in the tag&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed AppleScript record parsing for Things 3 project/area metadata&lt;/li&gt;
+  &lt;li&gt;Fixed permission dialog appearing when Reminders access was already granted&lt;/li&gt;
+  &lt;li&gt;Fixed connection status not refreshing after sync errors&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Tue, 03 Feb 2026 12:36:43 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.1.0/Focusmo_v7.1.0.dmg" sparkle:edSignature="BF2nuBooJOpW02UPO2iN+kif8Wg4jTb+CUjKKZCrD0XWxHkAGcOVOWvn7b3FJ3YgIs+lBxAmyybOcDf9WIKFCw==" length="21775353" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.0.1</title>
       <sparkle:version>153</sparkle:version>
       <sparkle:shortVersionString>7.0.1</sparkle:shortVersionString>

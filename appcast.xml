@@ -3,6 +3,43 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.2.1</title>
+      <sparkle:version>175</sparkle:version>
+      <sparkle:shortVersionString>7.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.2.1&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Enhanced Things 3 Filtering&lt;/strong&gt; (Community Request):
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Filter by Area or Project&lt;/strong&gt;: Choose to filter tasks by Tag, Area, or Project — not just tags&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Inherited Tags&lt;/strong&gt;: Toggle to recognize tags inherited from parent Areas in Things 3&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Custom List Selection&lt;/strong&gt;: For non-English users, manually select your Things 3 list when automatic locale detection fails&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Auto-Sync on Filter Change&lt;/strong&gt;: Tasks refresh automatically when you change filter settings or press Enter&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Big Tasks Island Improvements&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Double-Click to Open&lt;/strong&gt;: Double-click any task chip to open it in its source app (Things 3, Reminders, TickTick)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Keyboard Shortcut&lt;/strong&gt; (Cmd+Ctrl+I): Add tasks to Island with smart duplicate detection — matches existing external tasks before creating new ones&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Dynamic Sizing&lt;/strong&gt;: Island window automatically shrinks when tasks are removed&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Reorder Mode&lt;/strong&gt;: Enable via context menu to drag-and-drop reorder task chips without moving the window&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed Things 3 "Can't get list" error detection for non-English users — now auto-suggests custom list selection&lt;/li&gt;
+  &lt;li&gt;Fixed keyboard shortcut creating duplicate tasks when adding external tasks that already exist&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Wed, 04 Feb 2026 14:06:42 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.2.1/Focusmo_v7.2.1.dmg" sparkle:edSignature="WCLRq4PBNdRLrwwlDWCw/d1wgC+o3OXsI/YS0Lla5EhvYD76nqq0W1pSeaGFgFzyKaWiL3R6rFJbTsxiL8EaAg==" length="22438946" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.2.0</title>
       <sparkle:version>174</sparkle:version>
       <sparkle:shortVersionString>7.2.0</sparkle:shortVersionString>

@@ -3,6 +3,42 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.3.0</title>
+      <sparkle:version>185</sparkle:version>
+      <sparkle:shortVersionString>7.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.3.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Todoist Integration&lt;/strong&gt;: Sync your Todoist tasks directly into Focusmo:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;OAuth Authentication&lt;/strong&gt;: Secure connection to your Todoist account via OAuth 2.0&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Today or All Tasks&lt;/strong&gt;: Choose to see only tasks due today, or your entire task list&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Project Filtering&lt;/strong&gt;: Filter tasks to a specific Todoist project&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Label Filtering&lt;/strong&gt;: Filter tasks by Todoist label&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Label Badges&lt;/strong&gt;: Task labels display as badges in the task list&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Two-Way Completion&lt;/strong&gt;: Completing a task in Focusmo marks it done in Todoist automatically&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Offline Support&lt;/strong&gt;: Tasks are cached for offline viewing with automatic retry for completions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Big Tasks Island Improvements&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Project Badges&lt;/strong&gt;: Task chips now display project/area name as a small badge for better context&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed Things 3 Area filtering not including tasks from Projects inside that Area&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Thu, 05 Feb 2026 19:11:55 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.3.0/Focusmo_v7.3.0.dmg" sparkle:edSignature="83XDIeyOje+Q5sjYVZZRzQ2hRvhB2FrNFzuwEFuNVy1ZS7qhswVPr2WnRvYV9I+kcdVMY7xt3gQSUSLDhgIrCA==" length="22538040" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.2.1</title>
       <sparkle:version>175</sparkle:version>
       <sparkle:shortVersionString>7.2.1</sparkle:shortVersionString>

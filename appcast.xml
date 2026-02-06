@@ -3,6 +3,15 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.3.1</title>
+      <sparkle:version>186</sparkle:version>
+      <sparkle:shortVersionString>7.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Fixed projects and tasks disappearing after app update — the app rename from "focusmode" to "Focusmo" caused Core Data to look for data in a new directory instead of the existing one</li></ul>]]></description>
+      <pubDate>Fri, 06 Feb 2026 08:20:57 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.3.1/Focusmo_v7.3.1.dmg" sparkle:edSignature="rZwbXhB3Wn2HPj4HOdaxt4oGNR8yXpkpp5zbOUt8EgtsaIVFnwV5S26AnGYobKAWAl9wqOj63C3slw91L27xAA==" length="22544562" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.3.0</title>
       <sparkle:version>185</sparkle:version>
       <sparkle:shortVersionString>7.3.0</sparkle:shortVersionString>

@@ -3,11 +3,43 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.4.0</title>
+      <sparkle:version>196</sparkle:version>
+      <sparkle:shortVersionString>7.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.4.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Microsoft To Do Integration&lt;/strong&gt;: Sync your Microsoft To Do tasks directly into Focusmo:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;OAuth Authentication&lt;/strong&gt;: Secure connection to your Microsoft account via OAuth 2.0 with PKCE (no client secret required)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Default List Tasks&lt;/strong&gt;: Pull incomplete tasks from your default Microsoft To Do list&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Two-Way Completion&lt;/strong&gt;: Completing or uncompleting a task in Focusmo syncs to Microsoft To Do automatically&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Offline Support&lt;/strong&gt;: Tasks are cached for offline viewing with automatic retry for completions&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Token Refresh&lt;/strong&gt;: Automatic token refresh with rotation support for uninterrupted access&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed MS Todo connection status showing "Not connected" after successful OAuth - connection check now uses task list API instead of profile endpoint that requires additional scope&lt;/li&gt;
+  &lt;li&gt;Fixed MS Todo OAuth completion notification not firing on main thread, causing Settings UI to miss the callback&lt;/li&gt;
+  &lt;li&gt;Fixed MS Todo uncomplete not syncing - unchecking a task now correctly sets it back to "Not Started" in Microsoft To Do&lt;/li&gt;
+  &lt;li&gt;Fixed MS Todo complete/uncomplete failing when task list ID is not in cache - now falls back to fetching the default list&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Fri, 06 Feb 2026 10:34:44 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.4.0/Focusmo_v7.4.0.dmg" sparkle:edSignature="oE9Od7QfvrQHEOz3lbedEin6gq9sty4PH2jZns7My83iPqQAr+J8LkQkSJqzWhvBuBJ29OwYdyNJXitnpmIWAQ==" length="22622193" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.3.1</title>
       <sparkle:version>186</sparkle:version>
       <sparkle:shortVersionString>7.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixed projects and tasks disappearing after app update — the app rename from "focusmode" to "Focusmo" caused Core Data to look for data in a new directory instead of the existing one</li></ul>]]></description>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed projects and tasks disappearing after app update — the app rename from "focusmode" to "Focusmo" caused Core Data to look for data in a new directory instead of the existing one&lt;/li&gt;&lt;/ul&gt;</description>
       <pubDate>Fri, 06 Feb 2026 08:20:57 +0000</pubDate>
       <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.3.1/Focusmo_v7.3.1.dmg" sparkle:edSignature="rZwbXhB3Wn2HPj4HOdaxt4oGNR8yXpkpp5zbOUt8EgtsaIVFnwV5S26AnGYobKAWAl9wqOj63C3slw91L27xAA==" length="22544562" type="application/octet-stream"/>
     </item>

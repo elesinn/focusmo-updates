@@ -3,6 +3,46 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.5.0</title>
+      <sparkle:version>206</sparkle:version>
+      <sparkle:shortVersionString>7.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.5.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Smart DND During Breaks&lt;/strong&gt;: Do Not Disturb now automatically disables during Pomodoro breaks and re-enables when work resumes, so you don't miss messages during downtime&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DND Notification Suppression&lt;/strong&gt;: When DND automation is enabled, redundant session start/end notifications are suppressed (the system DND banner already provides feedback)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create Tasks in External Apps&lt;/strong&gt;: Add tasks to your connected task managers directly from Focusmo's Command Palette:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Things 3&lt;/strong&gt;: Creates tasks in your configured list or Today&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Todoist&lt;/strong&gt;: Creates tasks in your filtered project (or Inbox), scheduled for today&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;TickTick&lt;/strong&gt;: Creates tasks scheduled for today&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Microsoft To Do&lt;/strong&gt;: Creates tasks in your default list&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Apple Reminders&lt;/strong&gt;: Creates tasks in your connected list&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed memory leaks: AVAudioEngine AU parameter listeners in HeadphoneWaker (3.8 KiB per init), NSAppleScript recompilation on every browser URL poll, and TaskRow Binding closures allocating on every view body evaluation&lt;/li&gt;
+  &lt;li&gt;Fixed menu bar popover sometimes flashing and closing immediately - caused by both mouseDown and mouseUp firing the action&lt;/li&gt;
+  &lt;li&gt;Fixed task deletion from menu bar not updating the list immediately - now observes SessionStore state directly&lt;/li&gt;
+  &lt;li&gt;Fixed menu bar popover appearing with delay - removed duplicate data loading and parallelized timeline fetches&lt;/li&gt;
+  &lt;li&gt;Fixed timeline drag-and-drop placing blocks at wrong position - replaced per-hour drop zones with 15-minute slots to avoid buggy macOS onDrop coordinates; ghost preview now shows the updated time range during drag&lt;/li&gt;
+  &lt;li&gt;Fixed UI freezes during Pomodoro sessions - moved calendar event checks and browser URL polling to background threads, reduced polling frequency&lt;/li&gt;
+  &lt;li&gt;Fixed Command Palette not auto-focusing the input field on open&lt;/li&gt;
+  &lt;li&gt;Fixed Command Palette opening animation delay - now appears instantly&lt;/li&gt;
+  &lt;li&gt;Fixed Command Palette arrow key scrolling not working&lt;/li&gt;
+  &lt;li&gt;Fixed external task creation failing for Todoist/TickTick/MS Todo due to numeric ID parsing&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Mon, 09 Feb 2026 12:09:17 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.5.0/Focusmo_v7.5.0.dmg" sparkle:edSignature="FdV2fQy9gd0UrH7fplehHiRZrUhcQ2+Fg9oxRNKv/s6E3aZjZfrNEvQwZT2vu8Hjkkin1ENeUaHPwMdgil2ODg==" length="22635927" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.4.0</title>
       <sparkle:version>196</sparkle:version>
       <sparkle:shortVersionString>7.4.0</sparkle:shortVersionString>

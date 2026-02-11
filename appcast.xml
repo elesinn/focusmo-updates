@@ -3,6 +3,34 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.7.1</title>
+      <sparkle:version>227</sparkle:version>
+      <sparkle:shortVersionString>7.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.7.1&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Activity Timeline - App Session Details&lt;/strong&gt;: Click any app block in the timeline to see full details - app name, duration, website, and window title in the details panel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Activity Timeline - Idle Time Overlays&lt;/strong&gt;: See when your screen was locked, asleep, or idle directly on the timeline - color-coded overlays (blue=locked, purple=sleep, gray=idle) with 5-minute minimum threshold&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Activity Timeline - Focus Correlation&lt;/strong&gt;: App blocks used during focus sessions are highlighted with a yellow border and star badge, so you can see which apps contributed to focused work&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Activity Timeline - Session Merging&lt;/strong&gt;: Consecutive same-app sessions within 60 seconds are merged into a single block with a count badge, reducing visual clutter from rapid app-switching&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Activity Timeline - Productivity Coding&lt;/strong&gt;: Apps are categorized as productive (green), neutral (gray), or distracting (pink) with color-coded blocks - dev tools, business, and utilities show green; entertainment, games, and social show pink&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed app usage blocks not rendering in timeline - cross-hour clipping modifier was hiding blocks positioned after minute 0 within each hour&lt;/li&gt;
+  &lt;li&gt;Fixed Obsidian duplicate task IDs when same title appears multiple times in one file - content hash now includes line number&lt;/li&gt;
+  &lt;li&gt;Fixed task sync crash when external source returns duplicate task IDs - dictionary construction now handles duplicates gracefully&lt;/li&gt;
+  &lt;li&gt;Fixed empty state not showing in Activity details when tracking is disabled vs when no data exists - now displays distinct messages for each case&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Wed, 11 Feb 2026 19:01:33 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.7.1/Focusmo_v7.7.1.dmg" sparkle:edSignature="xBYLAPH00ov01YkZSASmWS8JUJWg5KctTtMUgkSRYqjmed+FKfKwTcqu99lyOKgttYkigVJudRxJjILO0bQfBA==" length="23688464" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.7.0</title>
       <sparkle:version>226</sparkle:version>
       <sparkle:shortVersionString>7.7.0</sparkle:shortVersionString>

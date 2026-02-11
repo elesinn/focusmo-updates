@@ -3,6 +3,42 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.6.0</title>
+      <sparkle:version>216</sparkle:version>
+      <sparkle:shortVersionString>7.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.6.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Obsidian Integration&lt;/strong&gt;: Sync tasks from your Obsidian vault directly into Focusmo:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Security-Scoped Vault Access&lt;/strong&gt;: Securely connect to any Obsidian vault using macOS file bookmarks - your vault data never leaves your Mac&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Markdown Task Parsing&lt;/strong&gt;: Automatically discovers &lt;code&gt;- [ ]&lt;/code&gt; tasks across all &lt;code&gt;.md&lt;/code&gt; files in your vault&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Filtering&lt;/strong&gt;: Filter tasks by folder exclusions, tag, and due date (&lt;code&gt;📅 YYYY-MM-DD&lt;/code&gt;)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Two-Way Completion&lt;/strong&gt;: Completing a task in Focusmo checks it off in your markdown (&lt;code&gt;- [x]&lt;/code&gt;) with done date (✅) and focus time (🍅) metadata&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Uncomplete Support&lt;/strong&gt;: Unchecking a task restores the original markdown and strips completion metadata&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Task Creation&lt;/strong&gt;: Create new tasks from Command Palette - writes to a daily note or inbox file in your vault&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Live Vault Monitoring&lt;/strong&gt;: Detects file changes in your vault using FSEventStream and auto-syncs tasks&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Sync Status UI&lt;/strong&gt;: See last sync time, task count, and sync errors in Integrations settings&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Cross-Process Safety&lt;/strong&gt;: All file operations use NSFileCoordinator to prevent corruption when Obsidian has files open&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Real App Icons for Task Sources&lt;/strong&gt;: Task source badges throughout the app (task list, quick access, command palette, integrations settings) now show the actual app icon instead of generic SF Symbols - Things, Todoist, TickTick, Reminders, Microsoft To Do, and Obsidian all display their real icons&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed Activity screen date range query returning incorrect results - corrected Core Data predicate to use proper end date comparison&lt;/li&gt;
+  &lt;li&gt;Fixed UI freezing every 2 seconds during focus sessions - moved AppleScript browser URL polling to a background thread&lt;/li&gt;
+  &lt;li&gt;Fixed floating timer showing window chrome - removed title bar for a cleaner, chromeless appearance&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Wed, 11 Feb 2026 07:19:40 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.6.0/Focusmo_v7.6.0.dmg" sparkle:edSignature="pSrBqwzt3YhQVOa+o+kzZOHPcSHlF6aLw9ePaT34oDPZ8ou8h8Qh6piBjfWxT73yDWvHh3+aKZvQkoNaJUMfCA==" length="23018741" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.5.0</title>
       <sparkle:version>206</sparkle:version>
       <sparkle:shortVersionString>7.5.0</sparkle:shortVersionString>

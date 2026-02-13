@@ -3,6 +3,30 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.7.2</title>
+      <sparkle:version>228</sparkle:version>
+      <sparkle:shortVersionString>7.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.7.2&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Per-Task Daily Reset Exclusion&lt;/strong&gt;: Keep specific tasks pinned across daily resets by adding the &lt;code&gt;noreset&lt;/code&gt; keyword when creating a task. Excluded tasks stay in your active list but get a fresh timer each day. Toggle via context menu, edit form, or command palette - pinned tasks show a pin badge indicator.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Todoist Integration Fixed&lt;/strong&gt;: Todoist deprecated their REST API v2 and Sync API v9 on February 10, 2026, causing HTTP 410 errors for all Todoist users. Migrated to the new unified Todoist API v1 - connection, task sync, filtering, and completion all work again.&lt;/li&gt;
+  &lt;li&gt;Fixed Todoist "Today only" due date filter not working - API v1 moved task filtering to a dedicated &lt;code&gt;/tasks/filter&lt;/code&gt; endpoint&lt;/li&gt;
+  &lt;li&gt;Fixed Todoist "Reconnect" button not working when in error state - now properly clears stale tokens before re-authenticating&lt;/li&gt;
+  &lt;li&gt;Fixed deprecated Todoist project IDs (old numeric format) causing errors - invalid IDs are now cleared automatically&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Fri, 13 Feb 2026 17:36:41 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.7.2/Focusmo_v7.7.2.dmg" sparkle:edSignature="GrQvE2bxm2si1+y9Elf+1kZxyzIDOpfphLggO+/O3J9Iv/w2dRNVZ6QRqWZ9XWQ7nvWGbpu45Yhz69W5/7mHBw==" length="23198382" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.7.1</title>
       <sparkle:version>227</sparkle:version>
       <sparkle:shortVersionString>7.7.1</sparkle:shortVersionString>

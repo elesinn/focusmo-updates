@@ -3,6 +3,31 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.8.0</title>
+      <sparkle:version>238</sparkle:version>
+      <sparkle:shortVersionString>7.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.8.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Smart Timer Modes&lt;/strong&gt;: Choose how your timer behaves when it reaches zero:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Time Limited&lt;/strong&gt; (default): Timer counts down to zero and stops - ideal for bounded tasks and meetings&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Minimum Goal&lt;/strong&gt;: Timer counts down to zero, then continues counting up as overtime - ideal for creative work where you want to keep going&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Per-Task Override&lt;/strong&gt;: Set timer mode per task via the edit sheet or right-click context menu, or set a global default in Settings&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Overtime Display&lt;/strong&gt;: When in overtime, the timer shows "+X:XX" format with a distinct color shift so you always know you've passed your goal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;"Goal Reached!" Celebration&lt;/strong&gt;: A brief celebration plays when a minimum-goal timer hits zero, then seamlessly transitions to overtime counting&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Pomodoro Protection&lt;/strong&gt;: Pomodoro sessions always use time-limited mode regardless of task setting - time-boxing is sacred&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Mon, 16 Feb 2026 15:45:47 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.8.0/Focusmo_v7.8.0.dmg" sparkle:edSignature="SJ1GIEmk8oJUQUMtehfRUG4Zig5T45NP1FXV1XdLBRrOV9h9nreCpYnWGYqmNC3i5sTGBMcFPbgAzqB8Jsh3CA==" length="23763956" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.7.2</title>
       <sparkle:version>228</sparkle:version>
       <sparkle:shortVersionString>7.7.2</sparkle:shortVersionString>

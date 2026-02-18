@@ -3,6 +3,66 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.9.0</title>
+      <sparkle:version>248</sparkle:version>
+      <sparkle:shortVersionString>7.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.9.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Google Tasks Integration&lt;/strong&gt;: Sync your Google Tasks directly into Focusmo:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;OAuth Authentication&lt;/strong&gt;: Secure connection to your Google account via OAuth 2.0&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Multi-List Support&lt;/strong&gt;: Select which task lists to sync - choose individual lists or sync all at once&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Subtask Context&lt;/strong&gt;: Parent task names display as context badges on subtasks&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Date Filtering&lt;/strong&gt;: Filter to today's tasks or see everything&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Show All Toggle&lt;/strong&gt;: Quickly switch between filtered and full task views&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Connection UI&lt;/strong&gt;: Manage your Google Tasks connection from Integrations settings&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Session Timer in Command Palette&lt;/strong&gt;: Set a focus duration directly when starting a task:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Cmd+Enter with Duration&lt;/strong&gt;: Type a duration (e.g., "30m", "1h") and press Cmd+Enter to start an existing task with that timer&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Primary Countdown&lt;/strong&gt;: Session timer displays as the main countdown in the floating timer&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Plain Enter Support&lt;/strong&gt;: Start tasks without duration - session timer bypasses zero-time validation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Command Palette Autocomplete&lt;/strong&gt;: Inline ghost text suggests task names as you type:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Tab to Complete&lt;/strong&gt;: Press Tab to accept the autocomplete suggestion&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Prefix Matching&lt;/strong&gt;: Suggestions appear for prefix-only matches from your task list&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Footer Hint&lt;/strong&gt;: A subtle "Tab = Complete" hint appears when suggestions are available&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Command Palette Polish&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Raycast-Quality Animations&lt;/strong&gt;: Smooth entrance/exit transitions with scale and fade effects&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Progressive Pill Disclosure&lt;/strong&gt;: Duration and action pills appear progressively as you type, reducing visual noise&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Skeleton Loading&lt;/strong&gt;: Shows loading placeholder rows while external tasks sync&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Shortcut Popover&lt;/strong&gt;: Press ? to see all available keyboard shortcuts in a floating popover&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Confirmation Flash&lt;/strong&gt;: Visual flash feedback when creating tasks or completing actions&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Instant Open&lt;/strong&gt;: Command palette window is reused across open/close cycles for zero-latency launch&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Contextual Hints&lt;/strong&gt;: Smart footer hints adapt based on current input state&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed Activity screen blinking on periodic data refresh - stale request detection prevents UI flicker&lt;/li&gt;
+  &lt;li&gt;Fixed Activity timeline panel resize causing severe lag - deferred resize eliminates per-frame GeometryReader cascade&lt;/li&gt;
+  &lt;li&gt;Fixed "Focusmo" subtitle showing over section title in main window title bar&lt;/li&gt;
+  &lt;li&gt;Fixed workspace badge styling inconsistency - unified tinted background style across the app&lt;/li&gt;
+  &lt;li&gt;Fixed Command Palette duration pill and hints not showing when typing a duration in certain timer modes&lt;/li&gt;
+  &lt;li&gt;Fixed Command Palette deferred external task sync blocking initial keystrokes&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Wed, 18 Feb 2026 11:11:29 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.9.0/Focusmo_v7.9.0.dmg" sparkle:edSignature="XGhdc1dpPGnJnKu52VVEGyokz9vpK4fT/5YyniKofvxlA9F85GZSVdsnB4EL2cDGVZ8BZM0VXDInMFtl4kVvCA==" length="23856293" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.8.0</title>
       <sparkle:version>238</sparkle:version>
       <sparkle:shortVersionString>7.8.0</sparkle:shortVersionString>

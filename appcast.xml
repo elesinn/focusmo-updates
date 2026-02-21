@@ -3,6 +3,44 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.10.0</title>
+      <sparkle:version>259</sparkle:version>
+      <sparkle:shortVersionString>7.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.10.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Planning Calendar Redesign&lt;/strong&gt;: The menu bar planning popover has been completely redesigned following Apple Human Interface Guidelines:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Apple Calendar-Style Timeline&lt;/strong&gt;: Solid grid lines, semantic system colors, current time indicator with red dot and line extending into the time labels column (matching Apple Calendar)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Instant Open&lt;/strong&gt;: Timeline blocks and tasks load instantly from cache - no more flash of empty content when opening the popover&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Live Drag Preview&lt;/strong&gt;: Dragging and resizing blocks shows the snapped position in real-time with updated time labels&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;5-Minute Grid Snapping&lt;/strong&gt;: All scheduling snaps to 5-minute intervals for precise time planning&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Optimistic UI Updates&lt;/strong&gt;: Dropping a task onto the timeline shows the block immediately without waiting for data refresh&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Full Task Editing&lt;/strong&gt;: Right-click any task to access the full edit modal - duration presets, workspace selector, timer behavior override, and daily reset toggle&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Native Sidebar Style&lt;/strong&gt;: Flat rows with hover highlights, workspace color dots, external task labels (project/area/tags), hover-revealed drag handles and quick-schedule button&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Compact Header&lt;/strong&gt;: Centered segmented filter, inline search field with system fill style&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;External Task Title Protection&lt;/strong&gt;: Titles of tasks synced from external sources (Things 3, Reminders, etc.) are now read-only across the app - prevents accidental edits that would be overwritten on next sync. All other fields (duration, workspace, timer behavior) remain editable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed planning popover showing empty timeline for ~500ms before blocks appear - now loads from pre-warmed cache&lt;/li&gt;
+  &lt;li&gt;Fixed blocks briefly jumping to wrong position when dropped onto timeline - optimistic UI prevents the jump&lt;/li&gt;
+  &lt;li&gt;Fixed resize handle lines visible in dark mode when not hovering&lt;/li&gt;
+  &lt;li&gt;Fixed hover states not triggering reliably on task rows (missing hit-test area)&lt;/li&gt;
+  &lt;li&gt;Fixed Add Task text field not receiving keyboard focus when opened&lt;/li&gt;
+  &lt;li&gt;Fixed popover background color not using system window background in light mode&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Sat, 21 Feb 2026 11:29:24 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.10.0/Focusmo_v7.10.0.dmg" sparkle:edSignature="8GoXDotdvpta6QYjAFv4tC9+Iq7hWyGWBkeXvGMOw2V9fIUI/cLB+ZxWPiRgC0wKjUqx6etBLV8Gd8H8hb6xAQ==" length="22553668" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.9.1</title>
       <sparkle:version>249</sparkle:version>
       <sparkle:shortVersionString>7.9.1</sparkle:shortVersionString>

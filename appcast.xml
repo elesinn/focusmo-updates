@@ -3,6 +3,15 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.11.0</title>
+      <sparkle:version>269</sparkle:version>
+      <sparkle:shortVersionString>7.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Fixed ctrl+click not opening context menu on menu bar items — now works in addition to right-click</li><li>Fixed workspace color picker offering harsh neon colors — replaced with Apple system color-inspired palette for HIG compliance</li><li>Fixed timer mode pills (Timer/Stopwatch/Pomodoro) using overly vivid colors in command palette — now use subtle secondary tones</li></ul>]]></description>
+      <pubDate>Sun, 22 Feb 2026 23:01:30 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.11.0/Focusmo_v7.11.0.dmg" sparkle:edSignature="SrQuuPMcnYZmh6oFHtl1GPmSVzw70jGSQwh5VOT3JYJkvGIXNt5Nj3wF7qHyu3FujI5g3qzzRq7SaK8JjqIeDg==" length="23782559" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.10.0</title>
       <sparkle:version>259</sparkle:version>
       <sparkle:shortVersionString>7.10.0</sparkle:shortVersionString>

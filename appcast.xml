@@ -3,11 +3,38 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.12.0</title>
+      <sparkle:version>279</sparkle:version>
+      <sparkle:shortVersionString>7.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.12.0&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Claude AI Integration (MCP Server)&lt;/strong&gt;: Connect Claude to your focus data via the Model Context Protocol. Claude becomes your personal productivity coach with access to your real habits - not generic tips.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;One-Click Setup&lt;/strong&gt;: Enable in Settings → MCP Server, copy the config, paste into Claude Desktop or Claude Code&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Full Productivity Data&lt;/strong&gt;: Claude reads today's stats, weekly trends, task list, app usage with hourly heatmap, personal records, and live session state - all in one call&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;AI Coaching&lt;/strong&gt;: Server instructions guide Claude to reference your specific numbers, celebrate wins, and suggest actionable next steps based on your real patterns&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Task Management&lt;/strong&gt;: Claude can create tasks (with workspace auto-creation) and mark tasks complete directly in FocusMo&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Guided Prompts&lt;/strong&gt;: Built-in "Weekly Review" and "Plan My Day" prompts that pre-load your data for structured coaching sessions&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Health Check&lt;/strong&gt;: Verify button in settings confirms the MCP binary and license sentinel are working correctly&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Privacy-First&lt;/strong&gt;: MCP server runs locally on your Mac. No data is sent to external servers - Claude reads directly from your local database&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Dual Client Support&lt;/strong&gt;: Setup instructions for both Claude Desktop (JSON config) and Claude Code (terminal command)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Sat, 28 Feb 2026 19:33:38 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.12.0/Focusmo_v7.12.0.dmg" sparkle:edSignature="80ipN+u2cClkftLYyav/UETAzUi1LjPeFo5jVwTsg0661tXxQ4sTH7Dbs/GezvoswWuDII2ttbTqHhxZ8qNzAA==" length="34859763" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.11.0</title>
       <sparkle:version>269</sparkle:version>
       <sparkle:shortVersionString>7.11.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixed ctrl+click not opening context menu on menu bar items — now works in addition to right-click</li><li>Fixed workspace color picker offering harsh neon colors — replaced with Apple system color-inspired palette for HIG compliance</li><li>Fixed timer mode pills (Timer/Stopwatch/Pomodoro) using overly vivid colors in command palette — now use subtle secondary tones</li></ul>]]></description>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed ctrl+click not opening context menu on menu bar items — now works in addition to right-click&lt;/li&gt;&lt;li&gt;Fixed workspace color picker offering harsh neon colors — replaced with Apple system color-inspired palette for HIG compliance&lt;/li&gt;&lt;li&gt;Fixed timer mode pills (Timer/Stopwatch/Pomodoro) using overly vivid colors in command palette — now use subtle secondary tones&lt;/li&gt;&lt;/ul&gt;</description>
       <pubDate>Sun, 22 Feb 2026 23:01:30 +0000</pubDate>
       <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.11.0/Focusmo_v7.11.0.dmg" sparkle:edSignature="SrQuuPMcnYZmh6oFHtl1GPmSVzw70jGSQwh5VOT3JYJkvGIXNt5Nj3wF7qHyu3FujI5g3qzzRq7SaK8JjqIeDg==" length="23782559" type="application/octet-stream"/>
     </item>

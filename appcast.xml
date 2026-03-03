@@ -3,6 +3,29 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.12.1</title>
+      <sparkle:version>280</sparkle:version>
+      <sparkle:shortVersionString>7.12.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+&lt;h2&gt;What's New in 7.12.1&lt;/h2&gt;
+
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;MCP Server - Compact Summary Tool&lt;/strong&gt;: New &lt;code&gt;get_summary&lt;/code&gt; tool returns a ~200-token plain text overview of your focus data (vs ~2000+ JSON from &lt;code&gt;get_focus_data&lt;/code&gt;). Also added &lt;code&gt;sections&lt;/code&gt; parameter to &lt;code&gt;get_focus_data&lt;/code&gt; for selective data fetching - keeps Claude's context window lean during long coaching sessions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed sign out not properly clearing state - Firebase Auth, Google Sign-In, and license key are now all cleared synchronously before UI refresh&lt;/li&gt;
+  &lt;li&gt;Fixed "Start Next Session" celebration button being a no-op - the reducer action was commented out; now follows the standard session start flow&lt;/li&gt;
+  &lt;li&gt;Fixed Sparkle auto-updates never triggering for menu bar apps - permission dialog was invisible for LSUIElement apps. Auto-checks now enabled by default with macOS notification alerts for available updates&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+      <pubDate>Tue, 03 Mar 2026 18:17:59 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.12.1/Focusmo_v7.12.1.dmg" sparkle:edSignature="qX7Dc37YSEnCZSaIefiQOLIKmhKAeIrhF063jfglZ8hXlIF2iEzYrTBoViGynQsNiWAHVH0npGIFY5LV4m7UBg==" length="35695977" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.12.0</title>
       <sparkle:version>279</sparkle:version>
       <sparkle:shortVersionString>7.12.0</sparkle:shortVersionString>

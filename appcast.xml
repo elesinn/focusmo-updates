@@ -3,6 +3,14 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.12.2</title>
+      <sparkle:version>281</sparkle:version>
+      <sparkle:shortVersionString>7.12.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <pubDate>Tue, 03 Mar 2026 19:52:03 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.12.2/Focusmo_v7.12.2.dmg" sparkle:edSignature="KFgTMOYHIH2UVnoHDl6gBhMhleQ6A1VcPVvatJk6e5DBvrghuOdEvKpm0FWr4C0F7uIh6Hvw2dMR5CQrGZjwAw==" length="35006489" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.12.1</title>
       <sparkle:version>280</sparkle:version>
       <sparkle:shortVersionString>7.12.1</sparkle:shortVersionString>

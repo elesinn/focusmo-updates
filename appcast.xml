@@ -3,11 +3,19 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.12.5</title>
+      <sparkle:version>284</sparkle:version>
+      <sparkle:shortVersionString>7.12.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 05 Mar 2026 12:46:33 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.12.5/Focusmo_v7.12.5.dmg" sparkle:edSignature="QeQJjD/ULS6JsNFH8GXosR4P0d6hU2SJdPBgAaIVl98I7BJzKfBiQ1HK/E7z0+K3URHQD9wpZ+n1xASyGpX7Cw==" length="35250489" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.12.4</title>
       <sparkle:version>283</sparkle:version>
       <sparkle:shortVersionString>7.12.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixed active task switching to the first item in the task list when resuming a session after a Pomodoro break — the task you were working on now correctly persists through breaks</li></ul>]]></description>
+      <description>&lt;ul&gt;&lt;li&gt;Fixed active task switching to the first item in the task list when resuming a session after a Pomodoro break — the task you were working on now correctly persists through breaks&lt;/li&gt;&lt;/ul&gt;</description>
       <pubDate>Thu, 05 Mar 2026 10:46:37 +0000</pubDate>
       <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.12.4/Focusmo_v7.12.4.dmg" sparkle:edSignature="YX/dfeBI9DmGGMyz69whLlrm125JGmtS6+flPGF6sqggQlaSHLx0fR3bxIaZ8ngA7LGgVPQvZRzofkIfN99mBA==" length="35249794" type="application/octet-stream"/>
     </item>

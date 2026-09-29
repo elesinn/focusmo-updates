@@ -3,12 +3,22 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.18.3</title>
+      <sparkle:version>342</sparkle:version>
+      <sparkle:shortVersionString>7.18.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate sparkle:version="286"/>
+      <description><![CDATA[<ul><li>Filtering Todoist tasks by a label whose name has a space or a symbol no longer fails with an HTTP 400 error, and "Today only" with a label shows only that label's tasks</li><li>Monthly subscribers are no longer shown as being on a Pro trial</li><li>Settings no longer show the unused Cloud Sync placeholder</li></ul>]]></description>
+      <pubDate>Tue, 29 Sep 2026 21:21:52 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.18.3/Focusmo_v7.18.3.dmg" sparkle:edSignature="7Ms1miStl7qoa6xiUHnuXtBHbw4H/0bcmNWqSLAndLajP9GuvpRZHGWr1xnVK26dkrmsZ/miicGCv4OY/LH9Dw==" length="32559741" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.18.2</title>
       <sparkle:version>341</sparkle:version>
       <sparkle:shortVersionString>7.18.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <sparkle:criticalUpdate sparkle:version="286"/>
-      <description><![CDATA[<ul><li>Deleting a focus session or clearing tracked activity in Activity no longer crashes Focusmo</li><li>Start works while a session is paused, including right after Focusmo reopens a paused session: the paused task resumes, any other task starts fresh</li><li>With a project set to allow only certain apps, Focusmo no longer closes background helpers and parts of macOS such as the Apps screen during a session</li></ul>]]></description>
+      <description>&lt;ul&gt;&lt;li&gt;Deleting a focus session or clearing tracked activity in Activity no longer crashes Focusmo&lt;/li&gt;&lt;li&gt;Start works while a session is paused, including right after Focusmo reopens a paused session: the paused task resumes, any other task starts fresh&lt;/li&gt;&lt;li&gt;With a project set to allow only certain apps, Focusmo no longer closes background helpers and parts of macOS such as the Apps screen during a session&lt;/li&gt;&lt;/ul&gt;</description>
       <pubDate>Tue, 29 Sep 2026 16:09:44 +0000</pubDate>
       <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.18.2/Focusmo_v7.18.2.dmg" sparkle:edSignature="wxmi36Ggj/5+j22HP2YY0xroh/CJAxF0qPkS8H2zgT9D5Q4yk+GKKKcEmOCOSQ+BiI6tKb2wQeUGB4O8d0uvAw==" length="33388156" type="application/octet-stream"/>
     </item>

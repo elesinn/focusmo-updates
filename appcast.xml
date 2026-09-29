@@ -3,12 +3,22 @@
   <channel>
     <title>FocusMode Updates</title>
     <item>
+      <title>Version 7.18.2</title>
+      <sparkle:version>341</sparkle:version>
+      <sparkle:shortVersionString>7.18.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate sparkle:version="286"/>
+      <description><![CDATA[<ul><li>Deleting a focus session or clearing tracked activity in Activity no longer crashes Focusmo</li><li>Start works while a session is paused, including right after Focusmo reopens a paused session: the paused task resumes, any other task starts fresh</li><li>With a project set to allow only certain apps, Focusmo no longer closes background helpers and parts of macOS such as the Apps screen during a session</li></ul>]]></description>
+      <pubDate>Tue, 29 Sep 2026 16:09:44 +0000</pubDate>
+      <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.18.2/Focusmo_v7.18.2.dmg" sparkle:edSignature="wxmi36Ggj/5+j22HP2YY0xroh/CJAxF0qPkS8H2zgT9D5Q4yk+GKKKcEmOCOSQ+BiI6tKb2wQeUGB4O8d0uvAw==" length="33388156" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 7.18.1</title>
       <sparkle:version>340</sparkle:version>
       <sparkle:shortVersionString>7.18.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <sparkle:criticalUpdate sparkle:version="286"/>
-      <description><![CDATA[<ul><li>Turning on Cross-Device Sync no longer brings back tasks you deleted or copies of tasks from Things and other apps</li><li>The floating timer, Floating Island, Big Tasks Island and the Floating Button can be dragged again on macOS 27</li><li>Dragging the floating timer by one of its buttons moves it instead of pressing the button</li></ul>]]></description>
+      <description>&lt;ul&gt;&lt;li&gt;Turning on Cross-Device Sync no longer brings back tasks you deleted or copies of tasks from Things and other apps&lt;/li&gt;&lt;li&gt;The floating timer, Floating Island, Big Tasks Island and the Floating Button can be dragged again on macOS 27&lt;/li&gt;&lt;li&gt;Dragging the floating timer by one of its buttons moves it instead of pressing the button&lt;/li&gt;&lt;/ul&gt;</description>
       <pubDate>Tue, 29 Sep 2026 15:02:41 +0000</pubDate>
       <enclosure url="https://github.com/elesinn/focusmo-updates/releases/download/v7.18.1/Focusmo_v7.18.1.dmg" sparkle:edSignature="pWjUDem2/d/j9ab5ogu7QGnDHKPRzFcGqiETSx32qGfGdfRd2u4vZXnH0meOzSVaH1NnXFEe1pVK/oX5VNKwCw==" length="33394990" type="application/octet-stream"/>
     </item>
